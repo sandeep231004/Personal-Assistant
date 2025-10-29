@@ -201,14 +201,6 @@ DATABASE_URL=postgresql://user:pass@host/db
 DEBUG=True
 APP_NAME=Voice Assistant
 ```
-
-## Performance
-
-- **Chat Response**: < 2s (without web search)
-- **Voice Processing**: 3-5s end-to-end
-- **Document Upload**: Depends on size (typical PDF: 5-10s)
-- **RAG Search**: < 1s for semantic retrieval
-
 ## Future Enhancements
 
 - [ ] Frontend web interface (React/Vue)
@@ -237,4 +229,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 **Built with ❤️ for intelligent automation**
+
 
