@@ -1,0 +1,42 @@
+# Core Framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+pydantic-settings==2.6.1
+python-multipart==0.0.20
+
+# Database
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.9  # PostgreSQL adapter for Neon database
+
+# LangChain & LangGraph
+langchain==0.3.13
+langchain-google-genai==2.0.6
+langgraph==0.2.59
+langchain-community==0.3.13
+langchain-chroma==0.1.4
+
+# Google Generative AI
+google-generativeai==0.8.3  # Legacy SDK (for LangChain integration)
+google-genai==0.3.0          # New SDK (for Google Search Grounding)
+
+# Vector Store & Embeddings
+chromadb==0.5.23
+sentence-transformers==3.3.1
+
+# Document Processing
+pypdf==5.1.0
+unstructured==0.16.9
+
+# Web Search
+#duckduckgo-search==7.0.0
+
+# Voice Integration (Phase 3)
+faster-whisper==1.2.0          # Speech-to-Text (local, fast, accurate)
+edge-tts==7.2.3                # Text-to-Speech (free, natural voices)
+pydub==0.25.1                  # Audio format conversion and processing
+soundfile==0.13.1              # Audio I/O operations
+
+# Utilities
+python-dotenv==1.0.1
+httpx==0.28.1
