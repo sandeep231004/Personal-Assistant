@@ -1,4 +1,4 @@
-# AI Voice Assistant with RAG Capabilities
+# AI Persoanl Assistant with Voice Integration
 
 An intelligent voice-powered assistant built with advanced AI technologies, featuring natural language understanding, document analysis, web search, and voice interaction capabilities.
 
@@ -237,3 +237,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 **Built with ❤️ for intelligent automation**
+
