@@ -1,0 +1,40 @@
+# Core Framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+pydantic-settings==2.6.1
+python-multipart==0.0.20
+
+# Database
+sqlalchemy==2.0.36
+
+# LangChain & LangGraph
+langchain==0.3.13
+langchain-google-genai==2.0.6
+langgraph==0.2.59
+langchain-community==0.3.13
+langchain-chroma==0.1.4
+
+# Vector Store & Embeddings
+chromadb==0.5.23
+sentence-transformers==3.3.1
+
+# Google Generative AI (for Google Search Grounding)
+google-generativeai==0.8.3
+
+# Document Processing
+pypdf==5.1.0
+unstructured==0.16.9
+
+# Web Search
+duckduckgo-search==7.1.0
+
+# Voice (Optional - add later if needed)
+faster-whisper==1.1.0
+#TTS==0.22.0
+sounddevice==0.5.1
+soundfile==0.12.1
+
+# Utilities
+python-dotenv==1.0.1
+httpx==0.28.1
